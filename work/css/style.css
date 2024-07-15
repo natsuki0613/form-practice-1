@@ -1,3 +1,42 @@
 @charset "UTF-8";
 
-/* work */
+.base {
+  width: 100%;
+  padding: 60px 0;
+  background: #cff1ff;
+}
+.inner {
+  margin: 0 auto;
+  width: 600px;
+}
+.page_title {
+  margin-bottom: 60px;
+  font-size: 28px;
+  text-align: center;
+}
+.form_base {
+  padding: 50px;
+  background: #ecfaff;
+  margin-bottom: 60px;
+}
+.form_title {
+  font-size: 24px;
+  text-align: center;
+}
+.personal_content, .account_content, .contact_content, .subscription_content, .submit_content {
+  margin-top: 50px;
+}
+.content_title {
+  font-size: 18px;
+  color: #000000;
+}
+.input_section {
+  margin-top: 25px;
+}
+.label_text {
+  font-size: 14px;
+  color: #464646;
+}
+.required {
+  color: #e40000;
+}
