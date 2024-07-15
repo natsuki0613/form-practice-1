@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/base.css" />
-    <linl rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style.css" />
     <title>form-practice</title>
   </head>
   <body>
@@ -17,8 +17,8 @@
           <div class="personal_content">
             <h3 class="content_title">個人情報</h3>
             <div class="input_section">
-              <label class="label_text">
-                名字
+              <label class="label_text"
+                >名字
                 <span class="required">※</span>
               </label>
               <input
@@ -26,13 +26,13 @@
                 id="family_name"
                 type="text"
                 name="name"
-                autocomplete="family-name"
+                autocomplete="family_name"
                 required
               />
             </div>
-            <div class="label_text">
-              <label class="label_text">
-                名前
+            <div class="input_section">
+              <label class="label_text"
+                >名前
                 <span class="required">※</span>
               </label>
               <input
@@ -40,13 +40,13 @@
                 id="given_name"
                 type="text"
                 name="name"
-                autocomplete="given-name"
+                autocomplete="given_name"
                 required
               />
             </div>
-            <div class="label_text">
-              <label class="label_text">
-                生年月日
+            <div class="input_section">
+              <label class="label_text"
+                >生年月日
                 <span class="required">※</span>
               </label>
               <div class="select_area is_flex">
@@ -68,7 +68,7 @@
                 </div>
                 <div class="select_unit">
                   <select class="input_area" name="month">
-                    <optiom value disabled selected>月</optiom>
+                    <option value disabled selected>月</option>
                     <option value>1</option>
                     <option value>2</option>
                     <option value>3</option>
@@ -108,7 +108,7 @@
               <div class="gender_area">
                 <label class="gender_element">
                   <input
-                    class="gender_element"
+                    class="gender_content"
                     type="radio"
                     name="gender"
                     value="man"
@@ -117,7 +117,7 @@
                 </label>
                 <label class="gender_element">
                   <input
-                    class="gender_element"
+                    class="gender_content"
                     type="radio"
                     name="gender"
                     value="woman"
@@ -126,7 +126,7 @@
                 </label>
                 <label class="gender_element">
                   <input
-                    class="gender_element"
+                    class="gender_content"
                     type="radio"
                     name="gender"
                     value="other"
@@ -260,9 +260,9 @@
             <button class="btn btn_submit" type="submit">アカウント作成</button>
             <p class="other-text">
               アカウントを作成することにより、
-              <a class="link-color" href="#">利用規約</a>
+              <a class="link-color" href="#"> 利用規約</a>
               と
-              <a class="link-color" href="#">プライバシーポリシー</a>
+              <a class="link-color" href="#"> プライバシーポリシー</a>
               に同意するものとします。
             </p>
           </div>
